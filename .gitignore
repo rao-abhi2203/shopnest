@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Virtual environment
+env/
+venv/
+ENV/
+*.env
+
+# Django static & media
+staticfiles/
+media/
+*.pot
+*.mo
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Migrations cache (keep the files, ignore pycache)
+*/migrations/__pycache__/
+
+# Render build artifacts
+build/
